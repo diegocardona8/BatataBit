@@ -50,6 +50,7 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background:linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%); ;
 }
 
 header img{
@@ -69,6 +70,22 @@ header img{
     text-align: center;
     align-self: center;  /*se centra con igual espacio a los lados gracias a display:flex*/
 
+}
+
+.header--title-container h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem; /*Altura de la fuente - interlineado*/
+    color:var(--just-white);
+}
+
+.header--title-container p{
+
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:var(--soft-orange)
 }
 /* SECTIONS STYLE */
 /* FOOTER STYLE */
