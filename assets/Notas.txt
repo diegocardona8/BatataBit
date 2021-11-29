@@ -1,0 +1,5 @@
+Esta carpeta es soloa una guia, realmente las imagenes e inconos seran llamdas desde un
+servidor de internet imgur.
+
+La mayoria de repositorios online o todo, no permiten subir imagenes de tipo svg.
+por el momento sera local, y ver como hacer en git 
