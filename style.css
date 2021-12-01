@@ -40,83 +40,6 @@ html{
 }
 
 /* HEADER STYLE */
-
-header{
-    position: relative;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-width: 320px;
-    height: 334px;
-    text-align: center;
-    background:linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%); ;
-}
-
-header img{
-    width: 150px;
-    height: 24px;
-    margin-top: 60px;
-    align-self:center;
-}
-
-.header--title-container{
-
-    width:90%;
-    min-width: 288px;
-    max-width: 900px;
-    height: 218px;
-    margin-top: 40px;
-    text-align: center;
-    align-self: center;  /*se centra con igual espacio a los lados gracias a display:flex*/
-
-}
-
-.header--title-container h1{
-    font-size: 2.4rem;
-    font-weight: bold;
-    line-height: 2.6rem; /*Altura de la fuente - interlineado*/
-    color:var(--just-white);
-}
-
-.header--title-container p{
-
-    margin-top: 25px;
-    font-size: 1.4rem;
-    font-weight: 500;
-    line-height: 1.8rem;
-    color:var(--soft-orange)
-}
-
-.header--title-container .header--button{
-    position: absolute; /*Este position permite moverme , left,right,top,botton*/
-    left: calc(50% - 118px); /*posiciona el boton en el centro*/
-    top: 270px;
-    display: block;
-    margin-top: 35px;
-    padding:15px;
-    width: 229px;
-    height: 48px;
-    background-color: var(--off-white);
-
-    /*Sombras*/
-
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
-    border:none; /*Quitar border que venga por defecto*/
-    border-radius: 5px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: none;
-    color:var(--black);
-}
-
-.header--button span{
-    display:inline-block;
-    width: 13px;
-    height: 8px;
-    margin-left: 10px;
-    background-image: url('./assets/icons/down-arrow.svg');
-}
 /* SECTIONS STYLE */
 
 main{
@@ -139,7 +62,16 @@ main{
     width: 100%;
     min-width: 288px;
     max-width: 900px;
-    margin:0 auto; 
-
+    margin:0 auto; /*Se posicione en el centro*/
 }
+
+.main-exchange-container .backgroundImg {
+
+    width: 200px;
+    height: 200px;
+    margin:0 auto; /*Posiciona en el centro, ya que no ocupa el 100*/
+    margin-bottom:50px ;
+    background-image: url("./assets/img/Bitcoin.svg");
+}
+
 /* FOOTER STYLE */
