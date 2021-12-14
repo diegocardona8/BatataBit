@@ -98,7 +98,7 @@ main{
 }
 
 
-.main-currency-table{
+.main-currency-table, .main-commission-table{
 
     width:70%;
     min-width: 235px;
@@ -119,7 +119,16 @@ main{
 
 }
 
-.currency-table--container{
+.main-commission-table .commission-table--title{
+
+    margin-bottom: 15px;
+    font-size: 1.8 rem;
+    font-weight: bold;
+    line-height: 2.3 rem;
+    color: var(--secondary-blue);
+}
+
+.currency-table--container, .commission-table--container{
 
     width: 90%;
     min-width: 230px;
@@ -128,13 +137,13 @@ main{
     margin:0 auto;
 }
 
-.currency-table--container table{
+.currency-table--container table, .commission-table--container table {
 
     width: 100%;
     height: 100%;
 }
 
-.currency-table--container td{
+.currency-table--container td , .commission-table--container td{
 
     width: 50%;
     font-size: 1.6rem;
@@ -144,27 +153,27 @@ main{
     background-color: var(--just-white);
 }
 
-.currency-table--container .table__top-left{
+.currency-table--container .table__top-left, .commission-table--container .table__top-left{
 
     border-radius: 15px 0 0 0;
 }
 
-.currency-table--container .table__top-right{
+.currency-table--container .table__top-right, .commission-table--container .table__top-right{
 
     border-radius: 0 15px 0 0;
 }
 
-.currency-table--container .table__bottom-left{
+.currency-table--container .table__bottom-left, .commission-table--container .table__bottom-left{
 
     border-radius: 0  0 0 15px ;
 }
 
-.currency-table--container .table__bottom-right{
+.currency-table--container .table__bottom-right, .commission-table--container .table__bottom-right{
 
     border-radius: 0  0  15px 0;
 }
 
-.currency-table--container .table__right{
+.currency-table--container .table__right, .commission-table--container .table__right{
 
     font-size: 1.4rem;
     font-weight: normal;
@@ -172,7 +181,7 @@ main{
     color: #757575;
 }
 
-.currency-table--container .down {
+.currency-table--container .down, .commission-table--container .down{
 
     display: inline-block;
     width: 16px;
@@ -184,7 +193,7 @@ main{
     background-repeat: no-repeat;
 }
 
-.currency-table--container .up {
+.currency-table--container .up, .commission-table--container .up{
 
     display: inline-block;
     width: 15px;
