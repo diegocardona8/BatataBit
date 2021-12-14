@@ -175,7 +175,7 @@ main{
 .currency-table--container .down {
 
     display: inline-block;
-    width: 15px;
+    width: 16px;
     height: 15px;
     margin-left: 10px;
     background-image: url('./assets/icons/trending-down.svg');
