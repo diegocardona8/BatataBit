@@ -311,7 +311,7 @@ tenga un positivion: relative */
     width: 90%;
     min-width:288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin: 15px auto;
     padding: 15px;
     background-color: var(--warm-black);
@@ -365,6 +365,29 @@ tenga un positivion: relative */
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+
+/* Sección Comodin */
+
+.bitcoin-img-container{
+
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url(./assets/img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+     text-align: center; /*Alinea los textos hijos */
+}
+
+.bitcoin-img-container h2{
+
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
 }
 
 /* FOOTER STYLE */
