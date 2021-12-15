@@ -256,7 +256,7 @@ main{
     min-width: 320px;
     height: auto;
     padding: 20px 10px;
-    background-color: var(--warm-black);
+    background-color: var(--black);
 }
 
 /* posicionar la imagen flotantante entre dos 
@@ -304,7 +304,67 @@ tenga un positivion: relative */
     color: #808080;
 }
 
+/* Tarjetas de beneficios */
 
+.product-detail--card{
+    
+    width: 90%;
+    min-width:288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
 
+.product-detail--card .icon-card{
+
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;  
+    
+    /* hacer esto siempre que utlizemos como fondo una imagen */
+
+    background-size: cover;
+    background-position: center;
+    background-position: no-repeat;
+}
+
+.clock{
+
+    background-image: url(./assets/icons/clock.svg); 
+}
+
+.eye{
+    background-image: url(./assets/icons/eye.svg); 
+}
+
+.dollar{
+    background-image: url(./assets/icons/dollar-sign.svg); 
+}
+
+.check{
+    background-image: url(./assets/icons/check-circle.svg); 
+}
+
+.product--card-title{
+
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bolda;
+    line-height: 1.8rem;
+    color:var(--just-white);
+
+}
+
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
 
 /* FOOTER STYLE */
