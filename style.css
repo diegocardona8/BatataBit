@@ -39,8 +39,12 @@ html{
     
 }
 
+<<<<<<< HEAD
 
 /* HEADER STYLE */
+=======
+/* HEADER STYLE*/
+>>>>>>> c5379b2512d307b5a75574120d17e945342f0483
 
 header{
     position: relative;
@@ -118,8 +122,7 @@ header img{
     margin-left: 10px;
     background-image: url('./assets/icons/down-arrow.svg');
 }
-/* SECTIONS STYLE - SECCIONES */
-
+/* SECTIONS STYLE */
 main{
     width:100%;
     height: auto;
