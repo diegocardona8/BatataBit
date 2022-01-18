@@ -622,6 +622,7 @@ footer{
     width: 100%;
     height: 150px;
     background-color: var(--bitcoin-orange);
+    padding: 0;
 }
 
 footer section{
