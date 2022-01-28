@@ -647,7 +647,7 @@ footer .left ul{
 .tables-container--slider{
 
     display: flex;
-    gap: 50px;
+    gap: 20px;
     height: 330px;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -659,7 +659,7 @@ footer .left ul{
 
     position: relative;
     scroll-snap-align: right;
-    margin-left: 50px;
+    margin-left: 15%;
     min-width: 190px;
     max-width: 300px;
 }
