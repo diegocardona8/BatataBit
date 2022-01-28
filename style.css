@@ -641,10 +641,28 @@ footer .left ul{
     color: var(--just-white);
 }
 
+/* Estilos Contenedor Horizontal Tablas Monedas- Comisiones*/
 
 
+.tables-container--slider{
 
+    display: flex;
+    gap: 50px;
+    height: 330px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 
+}
+
+.tables-container-table{
+
+    position: relative;
+    scroll-snap-align: right;
+    margin-left: 50px;
+    min-width: 190px;
+    max-width: 300px;
+}
 
 
 
